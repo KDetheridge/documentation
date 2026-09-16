@@ -154553,7 +154553,7 @@ paths:
       x-menu-order: 10
   /api/v2/downtime:
     get:
-      description: Get all scheduled downtimes.
+      description: List scheduled downtimes, optionally filtering to those that are active when the request is made.
       operationId: ListDowntimes
       parameters:
         - description: Only return downtimes that are active when the request is made.
