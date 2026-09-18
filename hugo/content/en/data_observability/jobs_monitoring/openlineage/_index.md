@@ -187,18 +187,6 @@ event = RunEvent(
 client.emit(event)
 ```
 
-You can also configure the Datadog transport with environment variables instead of `DatadogConfig`:
-
-```shell
-export DD_API_KEY=<DD_API_KEY>
-export DD_SITE=datadoghq.com
-export OPENLINEAGE__TRANSPORT__TYPE=datadog
-```
-
-```python
-client = OpenLineageClient.from_environment()
-```
-
 {{% /tab %}}
 {{< /tabs >}}
 
